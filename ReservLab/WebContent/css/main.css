@@ -1,0 +1,179 @@
+body {
+  padding-top: 0px; 
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+
+.container-fluid{
+	min-height: 650px; 
+}
+
+.minheigh{
+	min-height: 650px; 
+}
+
+.imgtop{
+  margin-bottom: 5px;
+}
+
+.navbar {
+    min-height: 0px;
+    border: 0px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+
+.starter-template {
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.bg-navbar {
+    background-color: #0e1e5c;
+	padding: 0.1rem 1rem;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.1rem 1rem;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.nav-link.disabled {
+    color: #cccccc;
+}
+
+
+.navbar a:hover, a:focus {
+    color: #daa916;
+    outline: 0;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #212529;
+}
+
+/* tela login */
+
+.form-signin {
+    max-width: 350px;
+    padding: 19px 29px 29px;
+    margin: 0 auto;
+	margin-top:50px;
+    background-color: #fff;
+	
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+       -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+            box-shadow: 0 1px 2px rgba(0,0,0,.05);
+			
+	font-family:Tahoma, Geneva, sans-serif;
+	color:black;
+	font-weight:lighter;
+}
+.form-signin label.error{
+color:red;
+}
+
+.form-signin .form-signin-heading{
+    color:#465753;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}
+
+.signin-form, .body-container
+{
+	//border:solid red 1px;
+	margin-top:110px;
+}
+.navbar-brand{
+	font-family:"Lucida Handwriting";
+}
+#btn-submit{
+	height:45px;
+}
+
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  z-index:1;
+}      
+
+.progresso {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 135px;
+    width: 254px;
+}
+
+.footer {
+ /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+
+.mini-stat {
+    padding: 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.mini-stat, .navbar-custom, .side-menu {
+    box-shadow: 1px 0 20px rgba(0,0,0,.05);
+}
+
+.mini-stat-icon {
+    width: 60px;
+    height: 60px;
+  /*  display: inline-block;*/
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    
+    float: left;
+    margin-right: 10px;
+}
+
+.mini-stat-info span {
+    display: block;
+    font-size: 24px;
+}
+.text-white {
+    color: #fff!important;
+}
+
+ul.actionMessage {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

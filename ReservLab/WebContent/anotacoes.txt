@@ -1,0 +1,18 @@
+Anotacoes para Oracle campo ID
+
+// exemplo classe Cliente
+    @Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "CLIENTE_SEQ")
+	@SequenceGenerator(sequenceName = "PROX_CLIENTE", allocationSize = 1, name = "CLIENTE_SEQ")
+	
+	private int id;
+	
+Outros Bancos de dados
+
+   @Id
+   @GeneratedValue
+   private int id;	
+
+   referenciando um atributo com a tabela do sistema se o @Column não é informado informado assume o nome o atributo
+   @Column(name = "last_name")
+   private String lastName;

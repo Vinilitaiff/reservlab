@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info
+        organisation="ReservLab"
+        module="ReservLab"
+        status="integration">
+	</info>
+	
+	
+        <dependencies>
+      
+	        <dependency org="javax.servlet" name="jstl" rev="1.2"/>
+	         
+	        <dependency org="org.apache.struts" name="struts2-core" rev="2.5.16" conf="*->default"/>
+			
+			<dependency org="org.apache.struts" name="struts2-convention-plugin" rev="2.5.16"/>
+			
+			<dependency org="org.apache.struts" name="struts2-json-plugin" rev="2.5.16" transitive="false"/>
+			
+			<dependency org="org.ow2.asm" name="asm" rev="5.2" transitive="false"/>
+			
+			<dependency org="org.ow2.asm" name="asm-commons" rev="5.2" transitive="false"/>
+			
+			<dependency org="org.hibernate" name="hibernate-core" rev="5.3.1.Final"/>
+			
+			<dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.9.1" transitive="false"/>
+			
+			<dependency org="dom4j" name="dom4j" rev="1.6.1" transitive="false"/>
+			
+			
+			
+			<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+
+			 <dependency org="mysql" name="mysql-connector-java" rev="8.0.11"/>
+			 <!--
+            <dependency org="mysql" name="mysql-connector-java" rev="5.1.13"/>
+            
+            <dependency org="mysql" name="mysql-connector-java" rev="6.0.6"/> 
+            			<dependency org="com.h2database" name="h2" rev="1.4.196"/>
+            -->
+
+		</dependencies>
+		
+	
+</ivy-module>

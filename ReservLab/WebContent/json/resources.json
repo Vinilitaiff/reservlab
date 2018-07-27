@@ -1,0 +1,12 @@
+[
+  { "id": "a", "title": "Laboratorio A" },
+  { "id": "b", "title": "Laboratorio B", "eventColor": "green" },
+  { "id": "c", "title": "Laboratorio C", "eventColor": "orange" },
+  { "id": "d", "title": "Laboratorio D" },
+  { "id": "e", "title": "Laboratorio E" },
+  { "id": "f", "title": "Laboratorio F", "eventColor": "red" },
+  { "id": "g", "title": "Laboratorio G" },
+  { "id": "h", "title": "Laboratorio H" },
+  { "id": "i", "title": "Laboratorio I" },
+  { "id": "j", "title": "Laboratorio J" }
+]

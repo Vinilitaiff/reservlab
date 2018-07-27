@@ -1,0 +1,61 @@
+<persistence version="1.0"
+	xmlns="http://java.sun.com/xml/ns/persistence">
+	
+	<!-- <persistence-unit name="stresora" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		 mappings for annotated classes        
+		<properties>
+		    <property name="hibernate.hbm2ddl.auto" value="none" />
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@172.16.21.63:1521:xe" />
+			<property name="javax.persistence.jdbc.user" value="stresadm" />
+			<property name="javax.persistence.jdbc.password" value="admstres" />
+			<property name="hibernate.show_sql" value="false" />
+			 
+			    <property name="hibernate.c3p0.min_size" value="1"/>
+				<property name="hibernate.c3p0.minPoolSize" value="0"/>
+				<property name="hibernate.c3p0.maxPoolSize" value="40"/>  
+				<property name="hibernate.c3p0.acquireIncrement" value="5"/>		
+				<property name="hibernate.c3p0.timeout" value="5000"/>
+				<property name="hibernate.c3p0.maxIdleTime" value="3600"/>
+				<property name="hibernate.c3p0.max_statements" value="0"/>
+				<property name="hibernate.c3p0.maxStatementsPerConnection" value="0"/>
+				<property name="hibernate.c3p0.idle_test_period" value="3000"/>
+				<property name="hibernate.c3p0.numHelperThreads" value="3"/>
+				<property name="hibernate.c3p0.testConnectionOnCheckOut" value="true"/>  
+			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect" />
+			<property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver" />
+			
+		</properties>
+	</persistence-unit>
+	
+	
+	<persistence-unit name="h2" transaction-type="RESOURCE_LOCAL">
+	      <class>com.test.jpa.Student</class>  
+		<properties>  
+			  <property name="javax.persistence.jdbc.driver"   value="org.h2.Driver" />
+		      <property name="javax.persistence.jdbc.url"      value="jdbc:h2:~/test;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE" />  jdbc:h2:mem:test | jdbc:h2:~/test
+		      <property name="javax.persistence.jdbc.user"     value="sa" />
+		      <property name="javax.persistence.jdbc.password" value="" />
+		      <property name="hibernate.dialect"               value="org.hibernate.dialect.H2Dialect"/>
+		      <property name="hibernate.hbm2ddl.auto"          value="create" />
+		      <property name="show_sql"                        value="true"/>
+		      <property name="hibernate.temp.use_jdbc_metadata_defaults" value="false"/>      
+		</properties>
+	</persistence-unit>
+ -->
+	
+	<persistence-unit name="stremysql" transaction-type="RESOURCE_LOCAL">
+		<properties> 
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3307/stresdb?serverTimezone=UTC" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="usbw" />
+			<property name="hibernate.transaction.auto_close_session" value="false" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+            <property name="hibernate.hbm2ddl.auto" value="none" />
+		</properties>
+	</persistence-unit>
+	
+</persistence>
